@@ -1,8 +1,9 @@
 # HOMEWORK 6: Associate Law Fails
-# Marcus Haldane
+# Marcus
 
 # Demonstrates how the Associative Law fails with floating point variables 
 # being added together when being calculated on modern computers
+
 .data
 # floating point values to be used to demonstrate the limitations of computers in regards to the Associative Law
 A:      .float 10000000000000000000000000000		# Holds A
@@ -75,3 +76,9 @@ endline: 	.asciiz 	"\n"
         # the following instructions terminate the program
         li,	$v0, 10		# Get termination code 
         syscall			# Terminate program
+
+
+
+
+
+
